@@ -1,9 +1,0 @@
----
-# front matter tells Jekyll to process Liquid
-layout: default
-title: Home
----
-{{ "Hello World!" | downcase }}
-{% for item in site.data.navigation %}
-    {{ item.name }}
-    {% endfor %}
