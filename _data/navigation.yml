@@ -1,0 +1,6 @@
+- name: Home
+  link: /
+- name: PickBalls!
+  link: /PickBalls.html
+- name: About
+  link: /about.html
