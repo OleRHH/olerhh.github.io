@@ -1,0 +1,57 @@
+<!CG Lab project 1: Simple Pong-Game>
+<!Author: Ole Rönna>
+<!Date: 2019-10-28>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+      <title>PONG! - The Game</title>
+      
+        <style type="text/css">
+			#Message1 {
+				position: absolute;
+				top: 220pt;
+				left: 185pt;
+				width: 210pt;
+				text-align: center;
+				z-index: 100;
+				display:block;
+				color: Black;
+				background-color: Red;
+				visibility: hidden;
+			}
+			#Message2 {
+				position: absolute;
+				top: 220pt;
+				left: 760pt;
+				width: 210pt;
+				text-align: center;
+				z-index: 100;
+				display:block;
+				color: Black;
+				background-color: Red;
+				visibility: hidden;
+			}
+			#mycanvas2 {
+				display: none;
+			}
+			</style>
+		</head>
+		
+  <body>
+		<div id="Message1"></div>
+		<div id="Message2"></div>
+  
+      <canvas id="mycanvas2" width="750" height="700"
+              style="border: 1px solid;">
+      </canvas>
+      <canvas id="mycanvas1" width="750" height="700"
+              style="border: 1px solid;">
+      </canvas>
+  </body>
+
+  <script type="text/javascript" src="lib/three.min.js"></script>
+  <script type="text/javascript" src="lib/TrackballControls.js"></script>
+  <script type="text/javascript" src="lib/dat.gui.js"></script>
+  <script src="pong.js"></script>
+</html>
