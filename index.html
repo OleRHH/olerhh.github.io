@@ -35,7 +35,7 @@
 					<nav id="nav">
 						<ul class="links">
 							<li class="active"><a href="index.html">This is Massively</a></li>
-							<!-- <li><a href="generic.html">Generic Page</a></li> -->
+							<li><a href="js_demos.html">Java Scipt demos</a></li>
 							<!-- <li><a href="elements.html">Elements Reference</a></li> -->
 						</ul>
 						<ul class="icons">
@@ -50,10 +50,13 @@
 							<article class="post featured">
 								<header class="major">
 									<h2><a href="#">Welcome!</a></h2>
-									<p>My name ist Ole Rönna and on this page I want to show you some of my projects.
-										I study electrical engineering and information technology.</p>
+									<p>My name is Ole Rönna and I study electrical engineering and information technology.
+										Leaving the foundation courses behind I am now in the seventh semester specializing on
+										Digital information technology. On this page I want to show you some of my projects..</p>
 								</header>
-								<a href="#" class="image main"><img src="images/haw.jpg" alt="" /></a>
+
+								<a href="#" class="image main"><img src="images/haw.jpg" alt="" title="view from the HAW-Hamburg building"/></a>
+
 								<ul class="actions special">
 									<li><a href="#" class="button large">Full Story</a></li>
 								</ul>
@@ -63,32 +66,36 @@
 							<section class="posts">
 								<article>
 									<header>
-										<h2><a href="#">Javascript Demos</a></h2>
+										<h2><a href="#">JavaScript Demos</a></h2>
 									</header>
-									<a href="#" class="image fit"><img src="images/js_billiard.png" alt="" /></a>
+									
+									<canvas id="myowncanvas" width="500" height="300"
+									style="border: 1px solid;">
+									</canvas>
+									<script type="text/javascript" src="js_demos/lib/three.min.js"> </script>
+									<script type="text/javascript" src="js_demos/lib/TrackballControls.js"> </script>
+									<script type="text/javascript" src="js_demos/PickBallsSmall.js"> </script>
+
 									<p>An easy way to design 3D graphics is the Javasript library <a href="https://threejs.org">three.js</a>.</p>
 										
-									<p><li><a href="js_demos/billiard.html">Billiard</a></li><p />
-									<p><li><a href="js_demos/clock.html">A Javascript Clock</a></li><p />
-									<p><li><a href="js_demos/pong.html">A very simple 3D pong</a></li><p />
-									<p><li><a href="js_demos/PickBall.html">Pick ball with your mouse</a></li><p />
 
 									<ul class="actions special">
-									<!-- <li><a href="test.html" class="button">Full Story</a></li> -->
+									<li><a href="js_demos.html" class="button">Full Story</a></li>
 									</ul>
 								</article>
 								<article>
 									<header>
-										<h2><a href="#">Bachelorproject</a></h2>
-										<p>Visualization of a 8x8 <a href="https://de.wikipedia.org/wiki/Magnetoresistiver_Effekt">TMR</a> Sensor arrays on a 7'' graphical display</p>
+										<h2><a href="#">Bachelor project</a></h2>
+										<p>Visualization of a 8x8 <a href="https://de.wikipedia.org/wiki/Magnetoresistiver_Effekt">TMR</a> Sensor array on a 7'' graphical display</p>
 									</header>
-									<a href="#" class="image fit"><img src="images/pic03.jpg" alt="" /></a>
+									<a href="#" class="image fit">
+										<iframe width="560" height="400" src="https://www.youtube.com/embed/N3o-VDJr8kI" frameborder="0"
+										allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></a>
 									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
 									<ul class="actions special">
 										<!-- <li><a href="#" class="button">Full Story</a></li> -->
 									</ul>
 								</article>
-								
 							</section>
 
 						<!-- Footer -->
